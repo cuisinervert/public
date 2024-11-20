@@ -1,0 +1,318 @@
+/*
+Theme Name: Hello Elementor Child
+Template: hello-elementor
+*/
+
+
+
+
+/* sur le body*/
+/* formulaire page rencontre avec l'ID 6d613fc*/
+
+#wpcf7-f6d613fc-o1 .form-group label {
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Syne', sans-serif;
+    color: #000;
+    line-height: 30px;
+    
+}
+
+#wpcf7-f6d613fc-o1 .form-control {
+    width: 100%;
+    max-width: 400px;
+    height: 70px;
+    padding: 5px;
+    border: 1px solid #fff;
+    font-size: 16px;
+    color: #000;
+
+   
+}
+
+#wpcf7-f6d613fc-o1 .form-group.message .form-control {
+    height: 230px !important; /* Pour le champ message */
+}
+
+#wpcf7-f6d613fc-o1 .submit-btn {
+    background-color: #DC9F96 !important;
+    color: #fff !important;
+    padding: 15px 60px 15px 60px !important;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Syne', sans-serif;
+}
+
+#wpcf7-f6d613fc-o1 .submit-btn:hover,
+#wpcf7-f6d613fc-o1 .submit-btn:active {
+    background-color: #C02E44 !important;
+}
+
+/* Boutons formulaires */
+
+.wpcf7 form input[type="submit"] {
+    display: block !important;
+    margin: 0 auto !important;
+    text-decoration: none !important;
+    padding: 15px 50px 15px 50px;
+    border-radius: 6px 6px 6px 6px;
+}
+/* Container commande pour deux colonnes */
+.form-com{display: flex;
+    flex-direction: row;
+    color:#fff;
+    margin: 0 auto !important; /* Centre horizontalement le formulaire */
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+
+ .form-com label{color: #fff !important;}   
+    /* Largeur des colonnes */
+   .form-com .left-side, .right-side {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form-com .left-side {
+    border-right:2px solid #ffff;
+    width: 450px;
+    height: 425px;
+    padding: 0px 45px 0px 0px;
+         
+    }
+    .form-com .right-side {
+        width: 450px;
+        padding: 0px 0px 0px 45px;
+        }
+    .form-com input {
+    width:100% !important;
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px !important;
+    }
+
+        
+    .qty {
+        width: 35px;
+        color: #000 !important;
+        text-align: center;
+    }
+
+     /*Agencement des liens*/   
+    a { text-decoration : none !important ; }
+    
+    /*section medi@ query for responsiv*/
+
+    @media (max-width: 1024px) and (min-width:768px) {
+        #wpcf7-f6d613fc-o1 .form-group label {
+            font-weight: 600;
+            font-size: 0.7rem;
+            font-family: 'Syne', sans-serif;
+            color: #000;
+            line-height: 12px !important;
+            padding-bottom: 0;
+            padding-top: 0;
+            
+            
+        }
+    /*ce changement marque un versionnage v1 pour exercice*/
+        #wpcf7-f6d613fc-o1 .form-control {
+            display: block;
+            width: 100%;
+            max-width: 350px;
+            height: 40px !important;
+            padding: 2px !important;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            color: #000;
+           
+        }
+    
+        #wpcf7-f6d613fc-o1 .form-group.message .form-control {
+            height: 130px !important; /* Pour le champ message */
+        }
+
+        #wpcf7-f6d613fc-o1 .submit-btn 
+        {
+            background-color: #DC9F96;
+            color: #fff;
+            padding: 8px 25px 8px 25px !important;
+            border: none;
+            border-radius: 4px !important;
+            cursor: pointer;
+            font-family: 'Syne', sans-serif;
+            font-size: 0.9rem;
+        }
+        #wpcf7-f6d613fc-o1 .submit-btn:hover, 
+        #wpcf7-f6d613fc-o1 .submit-btn:active
+        {
+        background-color: #C02E44;
+        font-size: 0.7rem;
+        color: #000;
+        }
+        
+        
+        /* Container commande pour deux colonnes */
+.form-com{display: flex;
+    flex-direction: row;
+    height: 350px;
+    color:#fff;
+    margin: 0 auto !important; /* Centre horizontalement le formulaire */
+    box-sizing: border-box;
+    padding-top: 10px;
+
+}
+ .form-com label{color: #fff !important;}   
+    /* Largeur des colonnes */
+   .form-com .left-side, .right-side {
+        display: flex;
+        flex-direction: column;
+    }
+    
+        .form-com .left-side {
+        border-right:1px solid #ffff;
+        width: 235px;
+        height: 275px !important;
+        margin-top: 30px;
+        padding: 0px 25px 0px 0px;
+         
+    }
+    .form-com .right-side {
+        width: 235px;
+        padding: 30px 0px 0px 25px;
+        }
+    .form-com input {width:100% !important;
+    height: 38px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    }
+
+    h3 {font-size: 1.1rem !important;}
+    label {font-size: 0.7rem !important;}
+
+    .wpcf7 form input[type="submit"] {
+        display: block !important;
+        margin: 0 auto !important;
+        text-decoration: none !important;
+        padding: 8px 25px 8px 25px !important;
+        font-size: 0.7rem !important;
+        border-radius: 5px;
+    }
+
+    
+    .qty {
+        width: 35px;
+        color: #000 !important;
+        text-align: center;
+        width: 25px;
+    }
+
+     /*Agencement des liens*/   
+    a { text-decoration : none !important ; }
+    }
+    
+    @media (max-width: 767px) {
+        /* Ajustements pour les mobiles */
+        
+        .H2 {
+            font-size: 1.8rem !important;
+            
+        }
+                
+        #wpcf7-f6d613fc-o1 .form-control {
+            width: 100%;
+            max-width: 100%; /* Pleine largeur sur mobile */
+            height: 30px !important;
+            
+        }
+    
+        #wpcf7-f6d613fc-o1 .form-group.message .form-control {
+            height: 120px !important;
+        }
+
+        #wpcf7-f6d613fc-o1 .submit-btn {
+            background-color: #DC9F96;
+            color: #fff;
+            padding: 8px 20px 8px 20px !important;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Syne', sans-serif;
+            font-size: 0.6rem;
+        }
+
+        #wpcf7-f6d613fc-o1 .submit-btn:hover,
+        #wpcf7-f6d613fc-o1 .submit-btn:active {
+        background-color: #C02E44;
+        }
+    
+      
+
+   
+   /* Container commande pour deux colonnes */ 
+
+
+    .form-com{display: flex;
+        flex-direction: column;
+    } 
+    .form-com .left-side{
+        border: none;
+        color:#fff;
+        margin: 0 auto !important; 
+        /* Centre horizontalement le formulaire */
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+ 
+.form-com h3{ font-size: 1.4rem;}
+.form-com label{color: #fff !important;}   
+    /* Largeur des colonnes */
+   .form-com .left-side, .right-side {
+        display: flex;
+        flex-direction: column;
+    }
+    
+        .form-com .left-side {
+        width: 260px;
+        height: 280px;
+        padding: 0px 2px 0px 0px;
+         
+    }
+    .form-com .right-side {
+        width: 260px;
+        margin: 0 auto !important;
+        padding: 0px 0px 0px 2px;
+        }
+    .form-com input {width:100% !important;
+    height: 35px !important;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    
+    }
+
+    .wpcf7 form input[type="submit"] {
+        display: block !important;
+        margin: 0 auto !important;
+        text-decoration: none !important;
+        padding: 8px 28px 8px 28px !important;
+        font-size: 0.7rem !important;
+    }
+
+    
+    .qty {
+        width: 35px;
+        color: #000 !important;
+        text-align: center;
+    }
+
+     /*Agencement des liens*/   
+    a { text-decoration : none !important ;
+    }
+
+}
+
+
